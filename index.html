@@ -18,19 +18,40 @@
 </head>
 <body>
     <!-- NAVBAR - 2 columns mobile and tablet (logo and hamburger
-        and 3 columns desktop (>1024px) (3 columns - each of them
-        with 4 nested columns))-->
+        and 3 columns desktop (>1024px) (3 columns - first- just logo, two of them
+        with 4 nested columns each))-->
         <nav>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <!--logo + hamburger-->
-                        <div class="contained"> 
-                            <span class="logo-nav"><img src="./img/logo.png" alt="DigitalOcean logo"></span>
-                            <span class="icon-nav"><i class="fas fa-bars"></i></span>
+                <div class="first row">
+                      <!--logo + hamburger-->
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="logo-nav"><img src="./img/logo.png" alt="logo navbar"></div>    
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 hidden-lg">
+                        <div class="icon-nav"><i class="fas fa-bars"></i></div>
+                    </div>
+
+
+
+                
+                    <div class="col-lg-4 hidden-xs hidden-sm hidden-md">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="Products">Ciao</div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="Customers">Ciao</div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="Community">Ciao</div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="Pricing">Ciao</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 hidden-xs hidden-sm hidden-md"></div>
                 </div>
             </div>
         </nav>

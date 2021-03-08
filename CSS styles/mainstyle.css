@@ -1,7 +1,4 @@
 
-.contained {
-    position: relative;
-}
 
 .logo-nav img {
     max-width: 200px;
@@ -9,11 +6,15 @@
     margin-top: 20px;
 }
 
+.container-fluid .first-row {
+    position: relative;
+}
+
 .icon-nav i {
     position: absolute;
-    top: 40%;
     right: 20px;
-    font-size: 30px;
+    top: 28px;
+    font-size: 28px;
     vertical-align: middle;
     color: dodgerblue;
 }
