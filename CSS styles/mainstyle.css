@@ -1,0 +1,19 @@
+
+.contained {
+    position: relative;
+}
+
+.logo-nav img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.icon-nav i {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    font-size: 30px;
+    vertical-align: middle;
+    color: dodgerblue;
+}
