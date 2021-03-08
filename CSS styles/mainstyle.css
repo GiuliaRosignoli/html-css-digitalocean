@@ -1,4 +1,20 @@
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
 
+h1 {
+    font-size: 4rem;
+}
+
+
+/* UTILITIES */
+
+
+
+
+/* NAVBAR section */
 
 .logo-nav img {
     max-width: 200px;
@@ -33,3 +49,20 @@
 .ta-list a:hover, a:active {
     text-decoration: none;
     color: dodgerblue;
+}
+
+
+/* SECOND SECTION */
+
+.blue-container {
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-content {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 2rem;
+    color: #fff;
+}
