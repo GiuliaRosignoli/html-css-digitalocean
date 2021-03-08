@@ -15,6 +15,9 @@ h3 {
 
 /* UTILITIES */
 
+.btn-default.ta-button:active {
+    border: 1px solid transparent;
+}
 
 
 
@@ -78,8 +81,11 @@ h3 {
 
 /* 2nd column */
 .second-col-content {
-    margin-top: 20px;
-    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     background-color: white;
     border-radius: 8px;
 }
@@ -90,6 +96,10 @@ h3 {
 
 .second-col-content.text-center h3:nth-child(2) {
     color: dodgerblue;
+}
+
+.second-col-content.text-center h3 {
+    line-height: 0.9;
 }
 
 /* Form */
@@ -103,12 +113,54 @@ form .ta-form {
     border: 1px solid transparent;
 }
 
-.btn.btn-default.blue-button {
+
+.btn.btn-default.ta-button {
     width: 60%;
     margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: rgba(66, 152, 233, 0.726);
-    font-size: 16px;;
-    color: white;
+    font-size: 16px;
     border-radius: 7px;
+}
+
+.btn.btn-default.blue.ta-button {
+    background-color: rgba(66, 152, 233, 0.726);
+    color: white;
+}
+
+.btn.btn-default.white-ta-button {
+    background-color: white;
+}
+
+.btn a {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    text-decoration: none;
+}
+
+.btn:hover a {
+    text-decoration: none;
+}
+
+.Google-logo {
+    float: left;
+    max-width: 20px;
+    height: 20px;
+}
+
+.terms-conditions {
+    padding-top: 14px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.terms-conditions > a {
+    text-decoration: underline;
+}
+
+/* JUMBOTRON */
+/*INLINE LOGOS SECTION */
+
+.small-logos {
+    max-width: 100%;
+    max-height: 80px;
+    vertical-align: middle;
 }
