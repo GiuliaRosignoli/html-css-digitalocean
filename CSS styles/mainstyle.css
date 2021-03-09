@@ -42,6 +42,14 @@ h3 {
     background-color: #F0FFF0; 
 }
 
+.white-text {
+    color: white;
+}
+
+.white-background {
+    background-color: white;
+}
+
 /* NAVBAR section */
 
 .first.container {
@@ -100,9 +108,6 @@ h3 {
     color: rgb(193, 230, 241);
 }
 
-.col-content h1 {
-    color: white;
-}
 
 /* 2nd column */
 .second-col-content {
@@ -111,8 +116,8 @@ h3 {
     padding: 5px;
     padding-top: 15px;
     padding-bottom: 10px;
-    background-color: white;
     border-radius: 8px;
+    color: white;
 }
 
 .second-col-content.text-center h3:nth-child(2) {
@@ -138,7 +143,7 @@ form .ta-form {
 .btn.btn-default.ta-button {
     width: 60%;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 1.3rem;
     border-radius: 7px;
 }
 
@@ -161,10 +166,13 @@ form .ta-form {
     text-decoration: none;
 }
 
+.buttons-container .btn.btn-default.white.ta-button span img  {
+    width: 10%;
+}
+
 .Google-logo {
     float: left;
-    max-width: 20px;
-    height: 20px;
+    max-width: 100%;
 }
 
 .terms-conditions {
@@ -186,7 +194,6 @@ form .ta-form {
 
 .small-logos {
     max-width: 100%;
-  /*  max-height: 80px; */
     vertical-align: middle;
 }
 
@@ -250,6 +257,7 @@ aside ul li:hover a {
 
 .new-jumbotron-section.light-background {
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .new-jumbotron-section.content {
@@ -281,10 +289,6 @@ aside ul li:hover a {
     max-width: 100%;
 }
 
-/*.container .slide.text-center {
-    position: relative;
-} */
-
 .container .slider .side-arrow.one {
     position: absolute;
     top: 50%;
@@ -302,6 +306,39 @@ aside ul li:hover a {
     font-weight: bold;
     font-size: 15px;
 }
+
+.slider .dots i {
+    font-size: 14px;
+    color: rgb(14, 100, 185);
+}
+
+/* SECTION */
+
+.three-col-sect.container {
+    margin-top: 40px;;
+}
+
+.fa-chevron-right.space  {
+   padding: 10px;
+   font-size: 13px;
+}
+
+.three-col-sect.container .section-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.three-col-sect.container .section-content img {
+    padding-bottom: 10px;
+}
+
+/* LINEAR-GRADIENT BACKGROUND SECTION */
+
+section .linear-gradient {
+    background: linear-gradient(#0000FF, #0000CD);
+}
+
 
 
 
