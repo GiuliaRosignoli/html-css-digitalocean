@@ -180,9 +180,13 @@ form .ta-form {
 /* JUMBOTRON */
 /*INLINE LOGOS SECTION */
 
+.logo-list li {
+    width: calc(100% / 2 - 12px);
+}
+
 .small-logos {
     max-width: 100%;
-    max-height: 80px;
+  /*  max-height: 80px; */
     vertical-align: middle;
 }
 
@@ -263,24 +267,34 @@ aside ul li:hover a {
 
 /* SLIDE */
 
+.slider {
+ position: relative;
+ width: 80%;
+ max-width: 700px;
+ margin-left: 10%;
+ margin-right: 10%;
+ padding-right: 40px;
+ padding-left: 40px;
+}
+
 .container .slide img {
-    max-width: 400px;
+    max-width: 100%;
 }
 
-.container .slide.text-center {
+/*.container .slide.text-center {
     position: relative;
-}
+} */
 
-.container .slide.text-center .side-arrow.one {
+.container .slider .side-arrow.one {
     position: absolute;
     top: 50%;
-    right: 100%;
+    left: 0;
 }
 
-.container .slide.text-center .side-arrow.two {
+.container .slider .side-arrow.two {
     position: absolute;
     top: 50%;
-    left: 100%;
+    right: 0;
 }
 
 .slide.text-center .blue-text {
@@ -288,3 +302,14 @@ aside ul li:hover a {
     font-weight: bold;
     font-size: 15px;
 }
+
+
+
+/* MEDIA QUERIES */
+
+ @media screen and (min-width: 768px) {
+    .logo-list li {
+        width: calc(100% / 6 - 12px);
+    }
+    
+ }
