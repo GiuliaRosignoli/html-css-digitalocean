@@ -281,3 +281,9 @@ aside ul li:hover a {
     top: 50%;
     left: 100%;
 }
+
+.slide.text-center .blue-text {
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
