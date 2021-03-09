@@ -37,6 +37,9 @@ h3 {
     color:  rgb(6, 6, 73);
 }
 
+.light-background {
+    background-color: #F0FFF0;
+}
 
 /* NAVBAR section */
 
@@ -214,7 +217,7 @@ form .ta-form {
 }
 
 aside ul {
-    border-left: 1px solid  #637485;;
+    border-left: 1px solid  #637485;
 }
 
 aside ul li a {
@@ -224,3 +227,16 @@ aside ul li a {
 aside ul li:hover a {
     text-decoration: none;
 } 
+
+.deploy-content img {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.deploy-content p {
+    font-size: 16px;
+}
+
+.deploy-content.fourth-line {
+    padding-top: 42px;
+}
