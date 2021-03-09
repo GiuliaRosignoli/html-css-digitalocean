@@ -166,13 +166,14 @@ form .ta-form {
     text-decoration: none;
 }
 
-.buttons-container .btn.btn-default.white.ta-button span img  {
+/*.buttons-container .btn.btn-default.white.ta-button span img  {
     width: 10%;
-}
+} */
 
 .Google-logo {
     float: left;
-    max-width: 100%;
+    max-width: 20px;
+    max-height: 20px;
 }
 
 .terms-conditions {
@@ -229,7 +230,19 @@ form .ta-form {
 }
 
 aside ul {
-    border-left: 1px solid  #637485;
+    position: relative;
+}
+
+/* Pseudo-element */
+
+aside ul::before {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color:  #637485;
 }
 
 aside ul li a {
