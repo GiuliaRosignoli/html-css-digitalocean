@@ -6,8 +6,9 @@ body {
 
 h1,
 h2,
-h3 {
-    font-weight: 600;
+h3,
+h4 {
+    font-weight: 700;
 }
 
 h1 {
@@ -38,7 +39,7 @@ h3 {
 }
 
 .light-background {
-    background-color: #F0FFF0;
+    background-color: #F0FFF0; 
 }
 
 /* NAVBAR section */
@@ -239,4 +240,44 @@ aside ul li:hover a {
 
 .deploy-content.fourth-line {
     padding-top: 42px;
+}
+
+/* NEW SECTION */
+
+.new-jumbotron-section.light-background {
+    margin-top: 50px;
+}
+
+.new-jumbotron-section.content {
+    padding-top: 60px;
+}
+
+.new-jumbotron-section.content {
+    margin-bottom: 100px;
+}
+
+.new-jumbotron-section.content:last-child {
+    font-weight: 500;
+}
+
+.container .slide img {
+    max-width: 500px;
+}
+
+/* SLIDE */
+
+.container .slide.text-center {
+    position: relative;
+}
+
+.container .slide.text-center .side-arrow.one {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+}
+
+.container .slide.text-center .side-arrow.two {
+    position: absolute;
+    top: 50%;
+    left: 100%;
 }
