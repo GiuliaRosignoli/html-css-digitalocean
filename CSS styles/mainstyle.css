@@ -280,11 +280,8 @@ aside ul li:hover a {
 }
 
 .new-jumbotron-section.content {
-    padding-top: 60px;
-}
-
-.new-jumbotron-section.content {
     margin-bottom: 100px;
+    padding-top: 60px;
 }
 
 .new-jumbotron-section.content:last-child {
@@ -448,11 +445,11 @@ section .linear-gradient {
 }
 
 
+
 /* MEDIA QUERIES */
 
  @media screen and (min-width: 768px) {
     .logo-list li {
         width: calc(100% / 6 - 12px);
-    }
-  
+    } 
  }
