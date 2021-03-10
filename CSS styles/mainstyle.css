@@ -298,8 +298,7 @@ aside ul li:hover a {
  position: relative;
  width: 80%;
  max-width: 700px;
- margin-left: 10%;
- margin-right: 10%;
+ margin: 0 auto;
  padding-right: 40px;
  padding-left: 40px;
 }
@@ -412,23 +411,42 @@ section .linear-gradient {
 }
 
 .slider-box img {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .slider-box .link-slider {
     padding-top: 40px;
     padding-bottom: 40px;
+    font-size: 18px;
 }
 
 .slider-box:hover a {
     text-decoration: none;
 }
 
+.slider-box .author {
+    padding-top: 20px;
+}
+
+.slider-box .author div {
+    line-height: 0.6rem;
+} 
+
+.slider-box .author .normal.blue-text {
+    font-weight: 400;
+}
+
 .slider-box .bold.blue-text {
     font-weight: bold;
     font-size: 18px;
 }
+
+.final.dots.text-center {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 
 /* MEDIA QUERIES */
 
