@@ -402,6 +402,8 @@ section .linear-gradient {
     border-bottom: none;
 }
 
+
+
 /* MEDIA QUERIES */
 
  @media screen and (min-width: 768px) {
