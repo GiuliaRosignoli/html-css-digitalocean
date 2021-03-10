@@ -358,11 +358,37 @@ aside ul li:hover a {
 
 /* LINEAR-GRADIENT BACKGROUND SECTION */
 
+.white-text.text-center {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
 section .linear-gradient {
     background: linear-gradient(#0000FF, #0000CD);
 }
 
+/* Table */
+.nesting-content {
+    font-size: 15px;
+}
 
+.row.row-spacing {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.aquamarine-text a {
+    color:  #00FA9A;
+}
+
+.aquamarine-text:hover a {
+    text-decoration: none;
+}
+
+.nesting-content .aquamarine-text span i {
+    padding-right: 30px;
+    font-size: 12px;
+}
 
 
 /* MEDIA QUERIES */
