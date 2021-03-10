@@ -372,11 +372,6 @@ section .linear-gradient {
     font-size: 15px;
 }
 
-.row.row-spacing {
-    padding: 10px;
-    border-bottom: 1px solid white;
-}
-
 .aquamarine-text a {
     color:  #00FA9A;
 }
@@ -385,11 +380,27 @@ section .linear-gradient {
     text-decoration: none;
 }
 
+.row.row-spacing {
+    padding: 0 10px;
+}
+
 .nesting-content .aquamarine-text span i {
     padding-right: 30px;
     font-size: 12px;
 }
 
+.service-left, .service-right {
+    margin-bottom: 50px;
+} 
+
+.service-left .row > div, .service-right .row > div {
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}
+
+.service-left .row:last-child > div, .service-right .row:last-child > div {
+    border-bottom: none;
+}
 
 /* MEDIA QUERIES */
 
